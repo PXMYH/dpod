@@ -1,0 +1,67 @@
+baseURL = "http://example.com"
+languageCode = "en-us"
+title = "Data Protection on Demand"
+theme = "vex-hugo"
+
+[params]
+  description = ""
+
+  # Navigation bar informations
+  [params.navbar]
+    logo = "Gemalto"
+    [[params.navbar.menu]]
+      link = "#"
+      text = "HOME"
+    [[params.navbar.menu]]
+      link = "#about"
+      text = "ABOUT"
+    [[params.navbar.menu]]
+      link = "#service"
+      text = "SERVICES"
+    [[params.navbar.menu]]
+      link = "#contact"
+      text = "CONTACT"
+
+  # Header
+  [params.header]
+    title = "SafeNet Data Protection On Demand"
+    text = "Deploy and manage encryption, key management and hardware security modules services-on-demand and from the cloud."
+    [params.header.image]
+      path = "images/DPoD.png"
+      alt = "Data Protection"
+    [params.header.button]
+      link = "#about"
+      text = "Signup"
+
+  # Features
+  [params.features]
+    title = "Our Core Features"
+    [params.features.image]
+      path = "images/DPoD.png"
+      alt = "Watch"
+    # Menu at the left of the image
+    [[params.features.left]]
+      icon = "tf-ion-ios-alarm-outline"
+      title = "Get data security on your terms – in minutes"
+      text = "Access to a Wide Range of Security Services. Simply Click and Deploy What you Need for Protection. Security as a Service (SECaaS) Offerings Within Minutes."
+    [[params.features.left]]
+      icon = "tf-ion-ios-bell-outline"
+      title = "Zero upfront capital investment and pay-as-you go pricing"
+      text = "No Hardware or Software to Buy, Support, or Update. No Capital Expenditures. Flexibility to Purchase Services to Suit Changing Business Needs."
+    [[params.features.right]]
+      icon = "tf-ion-ios-cart-outline"
+      title = "Easily integrate with your cloud and IT services"
+      text = "Preconfigured APIs Make it Easier to Integrate: Encryption, Key Management, HSM on Demand Services."
+    # Menu at the right of the image
+    [[params.features.right]]
+      icon = "tf-ion-ios-alarm-outline"
+      title = "Protect data anywhere and meet compliance mandates"
+      text = "Secure Sensitive Data in Any Environment – Cloud, Virtual or On-Premise. Protect the Data you Create, Store and Analyze. Crypto Enable Your Blockchain, Cloud, and Internet of Things (IoT) Applications."
+    [[params.features.right]]
+      icon = "tf-ion-ios-bell-outline"
+      title = "Infinite scalability and elasticity"
+      text = "Scale Encryption, HSM and Key Management Services Up and Down Automatically. Easily Grow HSM and Key Management Capacity and Crypto Resources Without Limitations."
+    [[params.features.left]]
+      icon = "tf-ion-ios-bell-outline"
+      title = "Focus on your business, not managing hardware and software"
+      text = "No Need to Buy, Provision, Configure, and Maintain Hardware and Software. All Physical Hardware, Software, and Infrastructure is Managed by Gemalto, Including an SLA."
